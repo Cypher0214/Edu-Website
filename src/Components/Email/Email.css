@@ -1,0 +1,23 @@
+.main_container {
+   background-image: url("../../assets/12.jpg");
+   width: 100%; /* Make sure the container takes the full width of its parent */
+   height: 50vh;
+   border: 15px solid black;
+   padding: 50px;
+   margin: 20px;
+   /* backdrop-filter: blur(4px); */
+   /* opacity: 0.5; */
+   background-size: cover; /* This will resize the background image to cover the container */
+   background-repeat: no-repeat; /* Prevent image from repeating if it's smaller than the container */
+   background-position: center center; /* Center the background image */
+}
+
+  main_container>h1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
+     align-items: center;
+     text-shadow: 0cm;
+     justify-content: center;
+     color: black;
+     
+     
+  }      
