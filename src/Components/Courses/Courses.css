@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/bgCourses.jpg");
+    overflow: hidden;
+    /* margin-top: 1%; */
+    padding-bottom: 10%;
+
+    
+}
+
+.cards_div {
+    overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.heading {
+    position: relative;
+    display: flex;  
+    flex-direction: column;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    align-items: center;
+    font-size: 40px;
+}
+

@@ -1,0 +1,93 @@
+.main_container {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    /* background-color: grey; */
+}
+
+.top {
+    background-color:dimgray;
+    display: flex;
+    flex: 1;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.top_right_inner {
+    float: left;
+}
+
+.top_right_inner > p{
+    font-size: large;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.bottom {
+    background-color: grey;
+    flex: 2;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.top_left {
+    padding-left: 50px;
+
+    /* display: flex; */
+    flex-direction: row;
+    flex: 2 ;
+}
+
+.top_right {
+    /* display: flex; */
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+    align-content: flex-end  ;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.footer_logo {
+    /* padding-left: 30px; */
+    margin: 10px;
+    margin-left: 50px;
+    width: 70px;
+    height: 60px;
+}
+
+.follow_links {
+    /* background-color: antiquewhite; */
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.follow_links > p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+.inner_bottom {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.inner_bottom > p{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
