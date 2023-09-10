@@ -14,8 +14,10 @@ const Navbar = () => {
   return (      
     <nav className="md:bg-gray-800 text-white p-4 h-50">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="w-25 h-25">
-          <img src={images.fucker} alt="Not fixed Yet, some issue" />
+
+        <div className="object-scale-down ">
+          <img src={images.logo} alt="Not fixed Yet, some issue" className="h-auto object-scale-down" />
+
         </div>
         <div className="navbar-title">
           <h1 className="text-3xl font-semibold">Savita Devi Academy</h1>

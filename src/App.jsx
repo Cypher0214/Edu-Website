@@ -2,17 +2,15 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Main from "./Components/Main/Main";
 import Gallery from "./Components/Gallery/Gallery"
-import Courses from "./Components/Courses/Courses";
-import Footer from "./Components/Footer/Footer";
 
+     
+import  Email  from "./Components/Email/Email";
 const App = () => (
   <div>
-    {/* <Navbar /> */}
-    {/* <Gallery/>
-    <Main /> */}
-    {/* <Courses /> */}
-    <Footer />
-     
+    <Navbar />
+     <Main />
+     <Gallery/> 
+     <Email/>
   </div>
 );
 
