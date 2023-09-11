@@ -4,6 +4,9 @@
     height: 410px;
     margin-right: 2rem;
     padding: 1%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -14,7 +17,7 @@
     object-fit: cover;
     width: 200px;
     align-items: center;
-
+                    
 }
 
 .text_design {
@@ -24,6 +27,7 @@
     margin-right: auto;
     align-items: center;
     font-family: "Times New Roman", Times, serif;
+    
 } 
 
 
@@ -33,6 +37,7 @@
     margin-right: auto;
     flex-direction: column;
     align-items: center;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 a {
@@ -42,4 +47,19 @@ a {
     margin-right: auto;
     bottom: 0;
     position: absolute;
+}
+
+.learn_more_btn {
+    background-color: gray;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    color: white; 
+    font-weight: 500;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.learn_more_btn:hover {
+    color: black;
+    font-weight: 500;
 }

@@ -1,23 +1,66 @@
-.main_container {
+.main_container_email {
    background-image: url("../../assets/12.jpg");
    width: 100%; /* Make sure the container takes the full width of its parent */
-   height: 50vh;
-   border: 15px solid black;
-   padding: 50px;
-   margin: 20px;
+   height: 75vh;
+   border: 5px solid black;
+   /* padding: 50px; */
+   /* margin: 10px; */
+   margin-left: 0;
    /* backdrop-filter: blur(4px); */
-   /* opacity: 0.5; */
+   opacity: 0.90;
    background-size: cover; /* This will resize the background image to cover the container */
    background-repeat: no-repeat; /* Prevent image from repeating if it's smaller than the container */
    background-position: center center; /* Center the background image */
 }
+/* 
+h1 {
+   color: white; 
+   padding-top: 0;
+   padding: 15px;
+   text-decoration: overline;   
+} */
 
-  main_container>h1{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
-     align-items: center;
-     text-shadow: 0cm;
-     justify-content: center;
-     color: black;
-     
-     
-  }      
+.form_container {
+   padding: 10px;
+   padding-top: 20px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   opacity: 0.95;
+}
+
+
+.form_main {
+   background-color: white;
+   margin-bottom: 4px;
+   overflow: hidden;
+   border-radius: 5px;
+   padding-top: 10px; 
+   width: 50%;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.form_main > label {
+   align-items: start;
+   justify-content: left;
+   align-self: start;
+
+}
+
+/* .input_tag {
+   margin-left: 5px;
+   margin-right: 5px;
+   padding-left: 4px;
+   padding-right: 4px;
+} */
+
+.form_main > button {
+   padding-top: 5px;
+}
+
+.submit_button {
+   padding-top: 10px;
+}

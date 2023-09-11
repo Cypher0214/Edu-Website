@@ -5,6 +5,8 @@ import gal1 from "../assets/8.jpeg"
 import gal2 from "../assets/2.png"
 import gal3 from "../assets/3.png"
 import gal4 from "../assets/9.jpg"
+import image12 from "../assets/12.jpg"
+
 
 
 export const images=
@@ -13,6 +15,7 @@ export const images=
     gal2:gal2,
     gal3:gal3,
     gal4:gal4,
+    image12:image12,
  logoMain: logoMain,
 
 

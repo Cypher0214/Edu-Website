@@ -12,14 +12,14 @@ const Gallery = () => {
     const { current } = scrollRef;
 
     if (direction === 'left') {
-      current.scrollLeft -= 1000;
+      current.scrollLeft -= 1600;
     } else {
-      current.scrollLeft += 1000;
+      current.scrollLeft += 1600;
     }
   };
 
   return (
-    <div className="app__gallery flex__center ">
+    <div className="app__gallery">
       <div className="app__gallery-content">
         {/* <SubHeading title="Instagram" /> */}
         {/* <h1 className="headtext__cormorant">Photo Gallery</h1> */}
@@ -28,10 +28,10 @@ const Gallery = () => {
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[ images.gal1, images.gal2, images.gal3, images.gal4].map((image, index) => (
+          {[ images.image12, images.gal2, images.gal3, images.gal4].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
-              <BsInstagram className="gallery__image-icon" />
+              {/* <BsInstagram className="gallery__image-icon" /> */}
             </div>
           ))}
         </div>

@@ -1,0 +1,66 @@
+.container_main_nav {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar_image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-right: 15px; */
+}
+
+.navbar_image img {
+    height: 80px;
+    width: 100px;
+}
+
+.navbar_title {
+    /* flex: 1; */
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;    
+}
+
+.navbar_title > h1 {
+    color: black;
+    padding-left: 25px;
+    /* font-family: New Century Schoolbook, TeX Gyre Schola, serif;    */
+    /* font-family: Trattatello, fantasy	;  */
+    font-family: var(--font-base);
+
+    font-weight: 600;
+    font-size: 45px;
+
+
+}
+ 
+.navbar_links { 
+    flex: 1 ;
+    padding-left: 150px;
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+    align-items: center;
+ } 
+
+ .navbar_links a {
+    /* display: flex; 
+    align-items: flex-end; */
+    margin: 0 1rem;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-size: large
+} 
+
+.navbar_links a:hover {
+    color: grey;
+}

@@ -11,7 +11,7 @@ const Dabbas = ({ title, img, description, linkUrl }) => (
     </div>      
     <div className="text_design">
       <p>{description}</p>  
-      <a href={linkUrl}>Learn More</a>
+      <a className="learn_more_btn" href={linkUrl}>Learn More...</a>
     </div>
   </div>
 );
