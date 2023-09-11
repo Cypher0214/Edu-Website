@@ -1,8 +1,8 @@
-.main_container {
+.main_container_footer {
     display: flex;
     height: 60vh;
     flex-direction: column;
-    /* background-color: grey; */
+    /* background-color: grey; */ 
 }
 
 .top {
@@ -25,7 +25,7 @@
 }
 
 .bottom {
-    background-color: grey;
+    background-color: dimgray;
     flex: 2;
 
     display: flex;
@@ -34,7 +34,7 @@
 
 .top_left {
     padding-left: 50px;
-
+    color: white;
     /* display: flex; */
     flex-direction: row;
     flex: 2 ;
@@ -48,20 +48,22 @@
     align-content: flex-end  ;
     justify-content: flex-end;
     padding: 10px;
+    color: white;
 }
 
 .footer_logo {
     /* padding-left: 30px; */
-    margin: 10px;
+    margin: 5px;
     margin-left: 50px;
-    width: 70px;
-    height: 60px;
+    width: 100px;
+    height: 85px;
 }
 
 .follow_links {
     /* background-color: antiquewhite; */
     width: 30%;
     padding: 10px;
+    padding-left: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;

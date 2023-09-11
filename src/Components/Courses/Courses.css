@@ -1,26 +1,28 @@
 .main {
     display: flex;
+    
     flex-direction: column;
     background-image: url("../../assets/bgCourses.jpg");
     overflow: hidden;
     /* margin-top: 1%; */
-    padding-bottom: 10%;
-
-    
+    padding-bottom: 6%;
+    padding-top: 10px;
 }
 
 .cards_div {
     overflow: hidden;
     padding-left: 2%;
     padding-right: 2%;
+    align-items: center;
+    justify-content: center;
 }
 
-.heading {
+.courses_heading {
     position: relative;
     display: flex;  
     flex-direction: column;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 4%;
     color: white;
     font-family: "Lucida Console", "Courier New", monospace;
     align-items: center;

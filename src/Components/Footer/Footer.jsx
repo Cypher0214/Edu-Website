@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons'
 
 const Footer = () => {
   return (
-    <div className="main_container">
+    <div className="main_container_footer">
       <div className="top">
         {/* <p>This is the Top Part</p> */}
         <div className="top_left">
@@ -14,10 +14,10 @@ const Footer = () => {
           </div>
           <div className="follow_links">
             <p>Follow Us</p>
-            <SocialIcon style={{ height: 25, width: 25 }} url="www.facebook.com" />
-            <SocialIcon style={{ height: 25, width: 25 }} url="www.twitter.com" />
-            <SocialIcon style={{ height: 25, width: 25 }} url="www.whatsapp.com" />
-            <SocialIcon style={{ height: 25, width: 25 }} url="www.linkedin.com" />
+            <SocialIcon style={{ height: 35, width: 35 }} url="www.facebook.com" />
+            <SocialIcon style={{ height: 35, width: 35 }} url="www.twitter.com" />
+            <SocialIcon style={{ height: 35, width: 35 }} url="www.instagram.com" />
+            <SocialIcon style={{ height: 35, width: 35 }} url="www.linkedin.com" />
           </div>
         </div>
         <div className="top_right">

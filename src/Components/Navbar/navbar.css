@@ -1,9 +1,9 @@
-.app__navbar {
+ /* app__navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black); /* From index.css */
+    background: var(--color-black); /* From index.css 
 
     padding: 1rem 2rem;
 }
@@ -45,7 +45,7 @@
 .app__navbar-login a {
     margin: 0 1rem;
     text-decoration: none;
-    transition: 0.5s ease;  /* Not Working */
+    transition: 0.5s ease;   Not Working 
 }
 
 .app__navbar-login a:hover {
@@ -131,3 +131,5 @@
         width: 110px;
     }
 }
+
+*/
