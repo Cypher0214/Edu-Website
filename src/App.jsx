@@ -18,10 +18,10 @@ const App = () => (
     {/* <FrontPage /> */}
     {/* <Main /> */}
     <Gallery/>
-    {/* <Courses />
+     <Courses />
     <Achievements />
     <Email/>
-    <Footer /> */}
+    <Footer /> 
   </div>
 );
 
