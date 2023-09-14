@@ -1,8 +1,8 @@
 // import  images  from "../../assets/7.png" 
-import react, { useState } from 'react';
+
 import {images} from '../../Constants/images'
 import './Navbarr.css'
-
+import { Link } from 'react-router-dom';
 // import { useState } from 'react';
 
 const Navbar = () => {
@@ -24,11 +24,19 @@ const Navbar = () => {
           <h1>Savita Devi Academy</h1>
         </div>
         <div className="navbar_links">  
-          <a href="#">Home</a>
+          {/* <a href="#">Home</a>
           <a href="#">Photos</a>
           <a href="#about">About Us</a>
           <a href="#about">Courses</a>
-          <a href="#">Contact Us</a>
+          <a href="#">Contact Us</a> */}
+           {/* <NavLink to={teacher} className=' '>
+                Faculty
+         </NavLink> */}
+         <Link to = "/"> Home </Link>
+         <Link to = "/courses"> Courses </Link>
+         <Link to = "/contactus"> Contact Us </Link>
+         <Link to = "/teacher"> Teacher </Link>
+
         </div> 
       </div>
   );
@@ -68,4 +76,3 @@ export default Navbar;
               isDropdownOpen ? 'block' : 'hidden'
             } lg:flex space-x-4 lg:space-x-8`}
           > */}
-

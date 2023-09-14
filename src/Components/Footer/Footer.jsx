@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons'
 
 const Footer = () => {
   return (
-    <div className="main_container_footer">
+    <div className="main_container_footer ">
       <div className="top">
         {/* <p>This is the Top Part</p> */}
         <div className="top_left">
