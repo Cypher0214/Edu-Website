@@ -24,11 +24,11 @@ const Navbar = () => {
           <h1>Savita Devi Academy</h1>
         </div>
         <div className="navbar_links">  
-          <a href="#">Home</a>
-          <a href="#">Photos</a>
-          <a href="#about">About Us</a>
-          <a href="#about">Courses</a>
-          <a href="#">Contact Us</a>
+          <a href="#home">Home</a>
+          <a href="#">About Us</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#courses">Courses</a>
+          <a href="#contact">Contact Us</a>
         </div> 
       </div>
   );
