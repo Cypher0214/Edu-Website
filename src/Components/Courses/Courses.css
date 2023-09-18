@@ -1,17 +1,15 @@
 .main {
     display: flex;
-    /* height: 100vh; */
+    
     flex-direction: column;
     background-image: url("../../assets/bgCourses.jpg");
     overflow: hidden;
     /* margin-top: 1%; */
-    padding-bottom: 2%;
-    padding-top: 2%;
+    padding-bottom: 6%;
+    padding-top: 10px;
 }
 
 .cards_div {
-    display: flex;
-    flex-wrap: wrap;
     overflow: hidden;
     padding-left: 2%;
     padding-right: 2%;
@@ -24,31 +22,10 @@
     display: flex;  
     flex-direction: column;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     color: white;
     font-family: "Lucida Console", "Courier New", monospace;
     align-items: center;
     font-size: 40px;
-}
-
-
-.viewMore {
-    position: relative;
-    cursor: pointer;
-    display: flex;  
-    flex-direction: column;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    color: white;
-    font-family: "Lucida Console", "Courier New", monospace;
-    align-items: center;
-    font-size: 20px;
-}
-
-.viewMore a:hover {
-    color: pink;
-    font-family: "Lucida Console", "Courier New", monospace;
-    align-items: center;
-    font-size: 20px;
 }
 

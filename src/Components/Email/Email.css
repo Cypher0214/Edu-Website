@@ -1,18 +1,17 @@
 .main_container_email {
-   background-image: url("../../assets/bgWrite.jpg");
+   background-image: url("../../assets/12.jpg");
    width: 100%; /* Make sure the container takes the full width of its parent */
    height: 75vh;
-   /* border: 5px solid black; */
+   border: 5px solid black;
    /* padding: 50px; */
    /* margin: 10px; */
    margin-left: 0;
    /* backdrop-filter: blur(4px); */
-   opacity: 1;
+   opacity: 0.90;
    background-size: cover; /* This will resize the background image to cover the container */
    background-repeat: no-repeat; /* Prevent image from repeating if it's smaller than the container */
    background-position: center center; /* Center the background image */
 }
-
 /* 
 h1 {
    color: white; 
@@ -27,7 +26,7 @@ h1 {
    align-items: center;
    justify-content: center;
    display: flex;
-
+   opacity: 0.95;
 }
 
 
@@ -42,8 +41,6 @@ h1 {
    justify-content: center;
    display: flex;
    flex-direction: column;
-   border: 2px solid black;
-
 }
 
 .form_main > label {

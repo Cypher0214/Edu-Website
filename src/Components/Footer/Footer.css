@@ -1,7 +1,5 @@
 .main_container_footer {
     display: flex;
-    /* height: 40vh; */
-    flex-direction: column; 
     height: 60vh;
     flex-direction: column;
     /* background-color: grey; */  
@@ -14,9 +12,7 @@
     /* flex-direction: column; */
     justify-content: space-between;
     overflow: hidden;
-    padding-top: 3px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10px;
 }
 
 .top_right_inner {
@@ -30,9 +26,8 @@
 
 .bottom {
     background-color: dimgray;
-    flex: 1;
-    padding-left: 5%;
-    padding-right: 5%;
+    flex: 2;
+
     display: flex;
     flex-direction: row;
 }
