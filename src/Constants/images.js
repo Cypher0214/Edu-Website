@@ -7,7 +7,8 @@ import gal3 from "../assets/3.png"
 import gal4 from "../assets/9.jpg"
 import image12 from "../assets/12.jpg"
 import sg from "../assets/13.jpg"
-
+import teach1 from "../assets/4.png"
+import teach2 from "../assets/13.jpg"
 
 
 export const images=
@@ -18,8 +19,10 @@ export const images=
     gal4:gal4,
     image12:image12,
  logoMain: logoMain,
- sg: sg
+ sg: sg,
+ t1:teach1,
+ t2:teach2,
 
 
 };
-
+    

@@ -1,21 +1,21 @@
 import { images } from "./images"
 export const teacher = [{
      id:1,
-     name: 'Lal Singh',
-     subject: 'Maths',
-     imageId: 101,
+     name: 'Ms. Suman Maam',
+     subject: 'English',
+     images: images.t2
 },        
 {
     id:2,
-     name: 'Papa Singh',
+     name: 'Savita Devi',
      subject: 'science',
-     imageId: 102,
+     images: images.logo
 },
 {
     id:3,   
     name : ' Rohan lodu',
     subject: 'lund pana',
-    imageId: 103 ,
+    images: images.t1 
 },
 
 
