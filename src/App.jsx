@@ -9,6 +9,8 @@ import Email from "./Components/Email/Email";
 import Teacher from './Components/Teachers/Teacher';   
 import "./App.css";
 import Main from "./Components/Main/Main";
+
+
 const App = () => (
   <Router>
     <div>
