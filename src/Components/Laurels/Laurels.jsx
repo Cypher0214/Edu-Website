@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import LaurelBlocks from './LaurelBlocks';
 
@@ -12,7 +12,7 @@ const Laurels = () => {
       <div className="achievements_heading">
         <h1>Achievements</h1>
       </div>
-      <div className="laurel_div w-full display flex items-center space-between gap-4 content-center content-stretch ">
+      <div className="laurel_div w-full display flex items-center space-between gap-4 content-center  ">
       <LaurelBlocks 
           img={achiever} 
           title="Ranchod Das" 

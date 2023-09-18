@@ -1,11 +1,15 @@
 .main_container_footer {
     display: flex;
-    /* height: 40vh; */
+    height: 340px; 
     flex-direction: column; 
+    /* height: 60vh; */
+    flex-direction: column;
+    background-color: #C5E3EC;
+    ;  
 }
 
-.top {
-    background-color:dimgray;
+.footer {
+    /* background-color:dimgray; */
     display: flex;
     flex: 1;
     /* flex-direction: column; */
@@ -16,11 +20,11 @@
     padding-right: 5%;
 }
 
-.top_right_inner {
+.footer_right_inner {
     float: left;
 }
 
-.top_right_inner > p{
+.footer_right_inner > p{
     font-size: large;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -34,15 +38,35 @@
     flex-direction: row;
 }
 
-.top_left {
+.footer_left {
     padding-left: 50px;
     color: white;
     /* display: flex; */
     flex-direction: row;
-    flex: 2 ;
+    flex: 1 ;
 }
 
-.top_right {
+.footer_middle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.enroll_btn {
+    background: white;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+.enroll_btn:hover {
+    opacity: 50%;
+    background: white;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+.footer_right {
     /* display: flex; */
     flex-direction: row;
     flex: 1;
@@ -50,21 +74,23 @@
     align-content: flex-end  ;
     justify-content: flex-end;
     padding: 10px;
-    color: white;
+    color: #000000;
+    margin-top: 30px;
 }
 
 .footer_logo {
     /* padding-left: 30px; */
-    margin: 5px;
-    margin-left: 50px;
-    width: 100px;
-    height: 85px;
+    /* margin: 5px; */
+    margin-left: 60px;
+    width: 168px;
+    height: 155px;
+    margin-top: 30px;
 }
 
 .follow_links {
     /* background-color: antiquewhite; */
-    width: 30%;
-    padding: 10px;
+    /* width: 40%; */
+    padding: 50px;
     padding-left: 5px;
     display: flex;
     flex-direction: row;
@@ -74,11 +100,17 @@
 .follow_links > p {
     font-family: "Lucida Console", "Courier New", monospace;
     padding-right: 10px;
+    font-size: 24px;
     text-align: center;
-
+    font-weight: 300;
+    color: #000000;
 }
 
-.inner_bottom {
+/* .follow_links_icons {
+    margin: 2%;
+} */
+
+/* .inner_bottom {
     flex: 1;
     align-items: center;
     justify-content: center;
@@ -93,5 +125,5 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-}
+} */
 

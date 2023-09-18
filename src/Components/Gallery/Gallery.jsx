@@ -1,12 +1,12 @@
-import React from 'react';
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import {useRef} from 'react';
+import {  BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 // import { SubHeading } from '../../components';
 import { images } from '../../Constants/images.js'
 import './Gallery.css';
 
 const Gallery = () => {
-  const scrollRef = React.useRef(null);
+  const scrollRef = useRef(null);
 
   const scroll = (direction) => {
     const { current } = scrollRef;
@@ -17,7 +17,6 @@ const Gallery = () => {
       current.scrollLeft += 1600;
     }
   };
-
   return (
     <div className="app__gallery">
       <div className="app__gallery-content">

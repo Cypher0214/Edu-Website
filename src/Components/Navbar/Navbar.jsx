@@ -1,8 +1,8 @@
 // import  images  from "../../assets/7.png" 
-import react, { useState } from 'react';
+
 import {images} from '../../Constants/images'
 import './Navbarr.css'
-
+import { Link } from 'react-router-dom';
 // import { useState } from 'react';
 
 const Navbar = () => {
@@ -17,18 +17,27 @@ const Navbar = () => {
   return (      
       <div className="container_main_nav">
         {/* mx-auto justify-between items-center */}
-        <div className="navbar_image">
+        {/* <div className="navbar_image">
           <img src={images.logo} alt="Not fixed Yet, some issue" className="image_logo" />
-        </div>
+        </div> */}
         <div className="navbar_title">
-          <h1>Savita Devi Academy</h1>
+          <h1 >Savita Devi Academy</h1>
         </div>
         <div className="navbar_links">  
-          <a href="#home">Home</a>
-          <a href="#">About Us</a>
-          <a href="#achievements">Achievements</a>
-          <a href="#courses">Courses</a>
-          <a href="#contact">Contact Us</a>
+          {/* <a href="#">Home</a>
+          <a href="#">Photos</a>
+          <a href="#about">About Us</a>
+          <a href="#about">Courses</a>
+          <a href="#">Contact Us</a> */}
+           {/* <NavLink to={teacher} className=' '>
+                Faculty
+         </NavLink> */}
+         <Link to = "/"> Home </Link>
+         <Link to = "/courses"> Courses </Link>
+         <Link to = "/contactus"> Contact Us </Link>
+         <Link to = "/teacher"> Teacher </Link>
+         <Link to = "/yt"> Youtube </Link>
+
         </div> 
       </div>
   );
@@ -68,4 +77,3 @@ export default Navbar;
               isDropdownOpen ? 'block' : 'hidden'
             } lg:flex space-x-4 lg:space-x-8`}
           > */}
-
