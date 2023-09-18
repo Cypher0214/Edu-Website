@@ -1,4 +1,3 @@
-import React from 'react'
 import Dabbas from './Dabbas';
 import gate from '../../assets/gate.png';
 import './Courses.css';
@@ -7,7 +6,7 @@ const Courses = () => {
   return (
     <div className="main" id="courses">
       <div className="courses_heading"><h1 className="courses_h1">Courses Offered</h1></div>
-      <div className="cards_div w-full display flex items-center space-between gap-4 content-center content-stretch ">
+      <div className="cards_div w-full display flex items-center space-between gap-4 content-center  ">
         <Dabbas 
           img={gate} 
           title="UPP" 

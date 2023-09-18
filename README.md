@@ -1,8 +1,5 @@
-# React + Vite
+Building a website for a coaching center - located in Gorakhpur, named as Savita Devi Coaching Center. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+using react JS, Tailwind CSS , react router DOM etc. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+project status 35 percent complete.   
