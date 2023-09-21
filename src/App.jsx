@@ -9,7 +9,7 @@ import Email from "./Components/Email/Email";
 import Teacher from './Components/Teachers/Teacher';   
 import "./App.css";
 import Main from "./Components/Main/Main";
-
+import Yt from "./Components/Yt/Yt";
 
 const App = () => (
   <Router>
@@ -21,6 +21,8 @@ const App = () => (
         <Route path="/courses" element={<Courses/>} />
         <Route path="/contactus" element={<Email />} />
         <Route path="/teacher" element={<Teacher/>}/>
+        <Route path="/yt" element={<Yt/>}/>
+
       </Routes>
    <Footer />
     </div>
