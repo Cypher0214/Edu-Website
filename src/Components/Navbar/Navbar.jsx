@@ -21,7 +21,7 @@ const Navbar = () => {
           <img src={images.logo} alt="Not fixed Yet, some issue" className="image_logo" />
         </div> */}
         <div className="navbar_title">
-          <h1>Savita Devi Academy</h1>
+          <h1 >Savita Devi Academy</h1>
         </div>
         <div className="navbar_links">  
           {/* <a href="#">Home</a>
