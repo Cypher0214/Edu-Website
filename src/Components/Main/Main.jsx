@@ -4,13 +4,19 @@ import Courses from "../Courses/Courses";
 // import Footer from "./Components/Footer/Footer";
 // import ContactBarTop from "./Components/ContactBarTop/ContactBarTop";
 import Email from "../Email/Email";
+import ContactUs from "../Email/ContactUs";
+// import Laurels from "../Laurels/Laurels";
+import Achievements from "../Achievements/Achievements";
 
 const Main = () => {
   return (
     <div>
-       <Gallery/>
-       <Email/>
-       <Courses/>
+       <Achievements />
+       <Gallery />
+       {/* <Email /> */}
+       <ContactUs />
+       <Courses />
+       {/* <Laurels /> */}
     </div>
   )
 }
