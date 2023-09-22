@@ -3,6 +3,7 @@ import Gallery from "../Gallery/Gallery";
 import Courses from "../Courses/Courses";
 // import Footer from "./Components/Footer/Footer";
 // import ContactBarTop from "./Components/ContactBarTop/ContactBarTop";
+import Laurels from "../Laurels/Laurels";
 import Email from "../Email/Email";
 import ContactUs from "../Email/ContactUs";
 // import Laurels from "../Laurels/Laurels";

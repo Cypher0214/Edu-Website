@@ -1,5 +1,6 @@
 .top_bar {
-    background-color: teal;
+    background: #C5E3EC;
+     /* fill: #C5E3EC; */
     height: 5vh;
     width: 100%;
     display: flex;
@@ -8,7 +9,7 @@
 }
 
 .top_bar > h1 {
-    color: white;
+    /* color: white; */
     align-items: center;
     align-content: center;
     padding: 5px;

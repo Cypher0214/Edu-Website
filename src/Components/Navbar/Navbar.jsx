@@ -17,11 +17,11 @@ const Navbar = () => {
   return (      
       <div className="container_main_nav">
         {/* mx-auto justify-between items-center */}
-        <div className="navbar_image">
+        {/* <div className="navbar_image">
           <img src={images.logo} alt="Not fixed Yet, some issue" className="image_logo" />
-        </div>
+        </div> */}
         <div className="navbar_title">
-          <h1>Savita Devi Academy</h1>
+          <h1 >Savita Devi Academy</h1>
         </div>
         <div className="navbar_links">  
           {/* <a href="#">Home</a>
@@ -36,6 +36,7 @@ const Navbar = () => {
          <Link to = "/courses"> Courses </Link>
          <Link to = "/contactus"> Contact Us </Link>
          <Link to = "/teacher"> Teacher </Link>
+         <Link to = "/yt"> Youtube </Link>
 
         </div> 
       </div>

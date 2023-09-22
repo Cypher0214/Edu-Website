@@ -17,7 +17,6 @@ const Gallery = () => {
       current.scrollLeft += 1600;
     }
   };
-
   return (
     <div className="app__gallery">
       <div className="app__gallery-content">

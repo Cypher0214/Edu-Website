@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Jost');
 .container_main_nav {
     height: 15vh;
     width: 100%;
@@ -6,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    background-color: white;
 }
 
 .navbar_image {
@@ -28,14 +30,20 @@
 }
 
 .navbar_title > h1 {
-    color: black;
+    /* color: black; */
     padding-left: 25px;
     /* font-family: New Century Schoolbook, TeX Gyre Schola, serif;    */
     /* font-family: Trattatello, fantasy	;  */
-    font-family: var(--font-base);
-
+    /* font-family: var(--font-base); */
+/* 
     font-weight: 600;
-    font-size: 45px;
+    font-size: 45px; */
+    color: #000;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 
 
 }
@@ -58,7 +66,13 @@
     cursor: pointer;
     color: black;
     font-weight: 600;
-    font-size: large
+    font-size: large;
+    color: #000;
+font-family: Jost;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 } 
 
 .navbar_links a:hover {
