@@ -10,11 +10,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-    FlowbitePlugin,
-    DaisyUI
-  ],
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
+
 };
