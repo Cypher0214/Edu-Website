@@ -11,6 +11,7 @@ import teach1 from "../assets/t1.jpg"
 import teach2 from "../assets/t2.jpg"
 import teach3 from "../assets/t3.jpg"
 import teach4 from "../assets/t4.jpg"
+// import girl from "../assets/girl.png"
 
 
 export const images=

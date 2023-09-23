@@ -7,7 +7,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    border-color: aliceblue;
+    border-color: black;
     
 }
 
@@ -29,18 +29,22 @@
     margin-right: auto;
     align-items: center;
     font-family: "Times New Roman", Times, serif;
-    color: white;
+    color: black;
 } 
 
 
 .heading_design {
     display: flex;
-    color: aliceblue;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
     align-items: center;
     font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.line_design {
+    border-color: black;
 }
 
 a {
@@ -52,12 +56,12 @@ a {
     position: absolute;
 }
 
-.learn_more_btn {
+/* .learn_more_btn {
     background-color: sandybrown;
     border-radius: 8px;
     padding: 5px;
     margin: 15px;
-    color: white; 
+    color: black; 
     font-weight: 500;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -65,4 +69,4 @@ a {
 .learn_more_btn:hover {
     color: black;
     font-weight: 500;
-}
+} */

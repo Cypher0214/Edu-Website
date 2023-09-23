@@ -3,6 +3,7 @@
     /* background: var(--color-black); */
     padding: 0px;
     border: black 1px solid;
+    border-top: 0;
     height: 80vh; /* This */
     width: 100%; 
     /* position: relative;  */
@@ -37,6 +38,7 @@
     height: 100%;
     max-width: 100%;
     position: relative;
+
 }
 
 .app__gallery-images_container {
@@ -47,7 +49,9 @@
     height: 100%;
     overflow-x: scroll;
     -ms-overflow-style: none;
-    scrollbar-width: none; }
+    scrollbar-width: none; 
+    border: black solid 2px;
+}
 
 
 .app__gallery-images_container::-webkit-scrollbar {

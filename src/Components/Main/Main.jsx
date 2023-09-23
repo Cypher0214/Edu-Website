@@ -5,14 +5,19 @@ import Courses from "../Courses/Courses";
 // import ContactBarTop from "./Components/ContactBarTop/ContactBarTop";
 import Laurels from "../Laurels/Laurels";
 import Email from "../Email/Email";
+import ContactUs from "../Email/ContactUs";
+// import Laurels from "../Laurels/Laurels";
+import Achievements from "../Achievements/Achievements";
 
 const Main = () => {
   return (
     <div>
-       <Gallery/>
-       <Email/>
-       <Courses/>
-       <Laurels/>
+       <Achievements />
+       <Gallery />
+       {/* <Email /> */}
+       <ContactUs />
+       <Courses />
+       {/* <Laurels /> */}
     </div>
   )
 }

@@ -6,7 +6,7 @@ const LaurelBlocks = ({ title, img, description, linkUrl }) => (
         <div className="image_div">
           <img className="img" src={img} alt="Loading" />
         </div>
-        <hr />
+        <hr className="line_design"/>
         <div className="p-4 content-center h-55 w-40 heading_design">
           <h2 >{title}</h2>  
         </div>      
