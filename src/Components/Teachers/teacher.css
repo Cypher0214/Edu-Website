@@ -1,0 +1,9 @@
+.img{
+    width: 342px;
+height: 332px;
+border-radius: 342px;
+background:  lightgray 50% / cover no-repeat;
+}
+.head{
+     padding-bottom: 30px;
+}

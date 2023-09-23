@@ -14,7 +14,8 @@ const Navbar = () => {
   //   setIsDropdownOpen(!isDropdownOpen);
   // };
 
-  return (      
+  return (
+    <>      
       <div className="container_main_nav">
         {/* mx-auto justify-between items-center */}
         {/* <div className="navbar_image">
@@ -40,6 +41,8 @@ const Navbar = () => {
 
         </div> 
       </div>
+      <span className='line'></span>
+      </>
   );
         };
 
