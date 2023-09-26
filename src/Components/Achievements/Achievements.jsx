@@ -31,7 +31,7 @@ const Achievements = () => {
         rank="AIR 7"
         name="Lonal Mausi"
         />
-        <AchieverBlock 
+        {/* <AchieverBlock 
         image={girl}
         rank="AIR 7"
         name="Lonal Mausi"
@@ -55,7 +55,7 @@ const Achievements = () => {
         image={girl}
         rank="AIR 7"
         name="Lonal Mausi"
-        />
+        /> */}
       </div>
 
 

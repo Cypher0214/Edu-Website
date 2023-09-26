@@ -1,9 +1,10 @@
 .achieve_main {
     /* height: 80vh; */
     /* width: 100vw; */
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     padding: 20px;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .achieve_main_heading h1 {
@@ -16,10 +17,10 @@
 .achieve_main_heading hr {
     font-weight: 800;
     border: 1px solid black;
-    width: 40%;
+    width: 35%;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
 
 }
 

@@ -23,10 +23,10 @@
                     
 }
 
-.image_div img {
+/* .image_div img {
     width: 214px;
     height: 213px;
-}
+} */
 
 /* .text_design {
     display: flex;
@@ -78,4 +78,5 @@
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;}
+    line-height: normal;
+}

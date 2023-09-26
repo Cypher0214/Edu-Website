@@ -16,3 +16,9 @@
     padding-right: 60px;
     padding-left: 40px;
 }
+
+@media screen and (max-width: 1150px) {
+    .top_bar {
+        display: none;
+    }
+}
