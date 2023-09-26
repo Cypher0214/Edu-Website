@@ -3,7 +3,7 @@ import './teacher.css';
 
 const Teacher = () => {
   return (
-    <div className="bg-white py-30 sm:py-14sx">
+    <div className="bg-white py-30 sm:py-12sx">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h1 className="text-center text-6xl mb-16">Our Faculty</h1>
         <div className="grid grid-cols-1 gap-y-12">
