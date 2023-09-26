@@ -39,7 +39,7 @@
 /* 
     font-weight: 600;
     font-size: 45px; */
-    color: #000;
+    /* color: #000; */
     font-family: Jost;
     font-size: 40px;
     font-style: normal;
@@ -65,10 +65,10 @@
     margin: 0 1rem;
     position: relative;
     cursor: pointer;
-    color: black;
+    /* color: black; */
     font-weight: 600;
     font-size: large;
-    color: #000;
+    /* color: #000; */
 font-family: Jost;
 font-size: 23px;
 font-style: normal;
@@ -81,7 +81,7 @@ line-height: normal;
 }
 .line {
     height: 1px;
-    background: #000;
+    /* background: #000; */
     display: block;
     margin: 10px auto; /* Center horizontally with auto margins */
     width: 95%;

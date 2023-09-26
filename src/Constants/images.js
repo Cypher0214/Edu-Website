@@ -13,7 +13,7 @@ import teach3 from "../assets/t3.jpg"
 import teach4 from "../assets/t4.jpg"
 // import girl from "../assets/girl.png"
 
-
+import teach5 from "../assets/t5.jpg"
 export const images=
 {  logo:logo,
     gal1:gal1,
@@ -27,6 +27,7 @@ export const images=
  t2:teach2,
  t3:teach3,
  t4:teach4,
+ t5:teach5,
 
 
 };
