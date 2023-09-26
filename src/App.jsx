@@ -16,8 +16,7 @@ const App = () => (
     <div>
       <ContactBarTop />
       <Navbar/>
-      <Routes>
-
+      <Routes>    
         <Route path="/" element={<Main />} />
         <Route path="/courses" element={<Courses/>} />
         <Route path="/contactus" element={<ContactUs />} />

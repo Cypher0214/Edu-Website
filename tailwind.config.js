@@ -1,6 +1,6 @@
-// Import the modules you need
-import FlowbitePlugin from 'flowbite/plugin';
-import DaisyUI from 'daisyui';
+// // Import the modules you need
+// import FlowbitePlugin from 'flowbite/plugin';
+// import DaisyUI from 'daisyui';
 
 // Export your configuration object
 export default {
@@ -10,5 +10,12 @@ export default {
   theme: {
     extend: {},
   },
+  // plugins: [
+  //   FlowbitePlugin,
+  //   DaisyUI
+  // ],
+  // daisyui: {
+  //   themes: ["light", "dark", "cupcake"],
+  // },
 
 };

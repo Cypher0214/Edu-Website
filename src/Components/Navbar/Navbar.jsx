@@ -1,5 +1,6 @@
 // import  images  from "../../assets/7.png" 
 
+import { useEffect, useState } from 'react';
 import {images} from '../../Constants/images'
 import './Navbarr.css'
 import { Link } from 'react-router-dom';
@@ -12,8 +13,23 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const[toggleMenu, setToggleMenu] = useState(false);
+  const location=useLocation();
+  const [current,setcurrent]=useState("/");
+  // State to manage the visibility of the dropdown menu
+  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  return (      
+  // // Toggle the dropdown menu visibility
+  // const toggleDropdown = () => {
+  //   setIsDropdownOpen(!isDropdownOpen);
+
+  useEffect(()=>{
+   setcurrent(location.pathname);
+  //  console.log(current);
+  },[location]);
+  // };
+
+  return (
+    <>      
       <div className="container_main_nav">
         <div className="navbar_logo">
           <img src={images.logo} />
@@ -23,11 +39,11 @@ const Navbar = () => {
           <h1 className="navbar_small_heading">SD Academy</h1>
         </div>
         <div className="navbar_links">  
-          <Link to = "/"> Home </Link>
-          <Link to = "/courses"> Courses </Link>
-          <Link to = "/contactus"> Contact Us </Link>
-          <Link to = "/teacher"> Teacher </Link>
-          <Link to = "/yt"> Youtube </Link>
+          <Link to = "/" className={" "+(current=="/"?"text-blue-500":"")}> Home </Link>
+          <Link to = "/courses" className={" "+(current=="/courses"?"text-blue-500":"")}> Courses </Link>
+          <Link to = "/contactus" className={" "+(current=="/contactus"?"text-blue-500":"")}> Contact Us </Link>
+          <Link to = "/teacher" className={" "+(current=="/teacher"?"text-blue-500":"")}> Teacher </Link>
+          <Link to = "/yt" className={" "+(current=="/yt"?"text-blue-500":"")}> Youtube </Link>
         </div>
         <div className="navbar_smallscreen">
         <GiHamburgerMenu color="#000" fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -53,6 +69,8 @@ const Navbar = () => {
         )}
       </div> 
     </div>
+      <span className='line'></span>
+      </>
   );
         };
 

@@ -1,5 +1,5 @@
 .container_main_nav {
-    height: 15vh;
+    height: 12vh;
     width: 100%;
     display: flex;
     /* flex-direction: row; */
@@ -7,6 +7,7 @@
     align-items: center;
     padding: 1rem 2rem;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .navbar_logo {
@@ -42,7 +43,7 @@
 /* 
     font-weight: 600;
     font-size: 45px; */
-    color: #000;
+    /* color: #000; */
     font-family: Jost;
     font-size: 40px;
     font-style: normal;
@@ -68,15 +69,15 @@
     margin: 0 1rem;
     position: relative;
     cursor: pointer;
-    color: black;
+    /* color: black; */
     font-weight: 600;
     font-size: large;
-    color: #000;
-    font-family: Jost;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    /* color: #000; */
+font-family: Jost;
+font-size: 23px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 } 
 
 .navbar_links a:hover {
