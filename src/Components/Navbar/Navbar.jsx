@@ -41,6 +41,7 @@ const Navbar = () => {
         <div className="navbar_links">  
           <Link to = "/" className={" "+(current=="/"?"text-blue-500":"")}> Home </Link>
           <Link to = "/courses" className={" "+(current=="/courses"?"text-blue-500":"")}> Courses </Link>
+          {/* <Link to="/courses" className={`link ${current === '/' ? 'selected' : ''}`}>Courses</Link> */}
           <Link to = "/contactus" className={" "+(current=="/contactus"?"text-blue-500":"")}> Contact Us </Link>
           <Link to = "/teacher" className={" "+(current=="/teacher"?"text-blue-500":"")}> Teacher </Link>
           <Link to = "/yt" className={" "+(current=="/yt"?"text-blue-500":"")}> Youtube </Link>
@@ -52,11 +53,11 @@ const Navbar = () => {
           <div className="navbar_smallscreen_overlay flex__center slide_bottom">
             <GiCrossedBones fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="navbar_smallscreen_links">
-              <li className="p__opensans"><a href="#home">Home</a></li>
-              <li className="p__opensans"><a href="#about">About</a></li>
-              <li className="p__opensans"><a href="#menu">Menu</a></li>
-              <li className="p__opensans"><a href="#awards">Awards</a></li>
-              <li className="p__opensans"><a href="#contact">Contact</a></li>
+              <Link to = "/" className="small_link">Home</Link>
+              <Link to = "/courses" className="small_link">Courses</Link>
+              <Link to = "/contactus" className="small_link">Contact Us</Link>
+              <Link to = "/teacher" className="small_link">Teachers</Link>
+              <Link to = "/yt" className="small_link">Youtube</Link>
             </ul>
             {/* <div className="navbar_links">  
               <Link to = "/"> Home </Link>

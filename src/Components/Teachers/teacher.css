@@ -1,9 +1,20 @@
+.teacher_main { 
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.teachers_heading {
+    font-weight: 500;
+}
+
 .img{
     width: 342px;
-height: 332px;
-border-radius: 342px;
-background:  lightgray 50% / cover no-repeat;
+    height: 332px;
+    border-radius: 342px;
+    /* border: 1px solid black; */
+    background:  lightgray 50% / cover no-repeat;
 }
+
 .head{
      padding-bottom: 30px;
 }

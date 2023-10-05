@@ -7,8 +7,8 @@ const Footer = () => {
     <div className="main_container_footer  ">
       <div className="footer">
         {/* <p>This is the footer Part</p> */}
-        <div className="footer_left">
-          <div>
+        <div className="footer_logo_links">
+          <div className="footer_logo_div">
             <img src={images.logo} className="footer_logo" />
           </div>
           <div className="follow_links">
@@ -19,15 +19,21 @@ const Footer = () => {
             <SocialIcon className="follow_links_icons" style={{ height: 35, width: 35 }} url="www.linkedin.com" />
           </div>
         </div>
-        <div className="footer_middle">
+        <div className="footer_small_div_line">
+          <hr />
+        </div>
+        <div className="footer_enroll">
           <button className="enroll_btn">Enroll Now</button>
         </div>
-        <div className="footer_right">
-          <div>
-            <div className="footer_right_inner">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ultricies sapien. Phasellus interdum odio vel nibh pellentesque ullamcorper. Quisque libero erat, pulvinar eu sollicitudin consectetur, posuere sed sapien. Phasellus ultricies ut ante sed tincidunt. Pellentesque metus turpis, ultricies sed arcu vitae, accumsan eleifend ante. Aenean volutpat nulla non facilisis commodo. Sed sed eros pharetra, porttitor justo non, cursus urna. Mauris elementum turpis interdum nulla luctus sagittis.
+        <div className="footer_small_div_line">
+          <hr />
+        </div>
+        <div className="footer_details">  
+            <div className="footer_details_inner">
+              <p>Savita Devi Academy </p>
+              <p>Kushinagar, Gorakhpur</p>
+              <p>Uttar Pradesh</p>
             </div>
-          </div>
         </div>
       </div>
     </div>

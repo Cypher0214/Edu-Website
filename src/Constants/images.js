@@ -11,6 +11,7 @@ import teach1 from "../assets/t1.jpg"
 import teach2 from "../assets/t2.jpg"
 import teach3 from "../assets/t3.jpg"
 import teach4 from "../assets/t4.jpg"
+import banner from "../assets/banner.jpg"
 // import girl from "../assets/girl.png"
 
 import teach5 from "../assets/t5.jpg"
@@ -21,13 +22,14 @@ export const images=
     gal3:gal3,
     gal4:gal4,
     image12:image12,
- logoMain: logoMain,
- sg: sg,
- t1:teach1,
- t2:teach2,
- t3:teach3,
- t4:teach4,
- t5:teach5,
+    banner:banner,
+    logoMain: logoMain,
+    sg: sg,
+    t1:teach1,
+    t2:teach2,
+    t3:teach3,
+    t4:teach4,
+    t5:teach5,
 
 
 };

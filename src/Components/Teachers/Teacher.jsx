@@ -3,9 +3,9 @@ import './teacher.css';
 
 const Teacher = () => {
   return (
-    <div className="bg-white py-30 sm:py-12sx">
+    <div className="teacher_main bg-white py-30 mb-20 sm:py-12sx">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="text-center text-6xl mb-16">Our Faculty</h1>
+        <h1 className="teachers_heading text-center text-6xl mb-16">Our Faculty</h1>
         <div className="grid grid-cols-1 gap-y-12">
           {teacher.map((teacher, index) => (
             <div
@@ -21,7 +21,7 @@ const Teacher = () => {
               </div>
               <div className="w-1/2">
                 <div
-                  className="w-96 h-96 rounded-full bg-cover bg-no-repeat bg-lightgray50"
+                  className="w-80 h-80 rounded-full bg-cover bg-no-repeat bg-lightgray50"
                   style={{ backgroundImage: `url(${teacher.images})` }}
                 ></div>
               </div>

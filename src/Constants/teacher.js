@@ -18,7 +18,8 @@ export const teacher = [
   {
     id: 3,
     name: 'Siddhant Singh',
-    qualification: 'High School: 88% UP Board, Intermediate: 80% UP Board, Graduation: 66% University of Allahabad, B.Ed: 82%',
+    // qualification: 'High School: 88% UP Board, Intermediate: 80% UP Board, Graduation: 66% University of Allahabad, B.Ed: 82%',
+    qualification: 'University of Allahabad, B.Ed: 82%',
     experience: '3 years of experience in teaching mathematics',
     exams: 'UPP, SSC GD, TET, CGL, BANK exams',
     images: images.t3

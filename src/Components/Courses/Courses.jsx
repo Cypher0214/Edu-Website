@@ -75,7 +75,7 @@ const Courses = () => {
           linkUrl="www.instagram.com" />
         <Dabbas 
           img={UPP} 
-          title="Politechnic" 
+          title="Polytechnic" 
           //description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour" 
           linkUrl="www.instagram.com" />
       </div>

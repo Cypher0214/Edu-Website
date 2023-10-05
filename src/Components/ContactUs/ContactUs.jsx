@@ -74,8 +74,22 @@ const ContactUs = () => {
               <img src={gps} className="gps_image" />
               <p className="contact_mode_text">Location</p>
               <p className="contact_mode_detail">Uttar Pradesh, India</p>
-            </div>
+            </div> 
         </div>
+        <div className="contact_info_small">
+              <div className="contact_info_details_small">
+                <img src={call} className="phone_image_small" />
+                <p className="contact_mode_detail_small">+91-7424870565</p>
+              </div>
+              <div className="contact_info_details_small">
+                <img src={mail} className="email_image_small" />
+                <p className="contact_mode_detail_small">+91-7424870565</p>
+              </div>
+              <div className="contact_info_details_small">
+                <img src={gps} className="location_image_small" />
+                <p className="contact_mode_detail_small">+91-7424870565</p>
+              </div>
+            </div>
         <div className="contact_form">
           <form onSubmit={handleSubmit}>
             <div className="contact_form_details">
