@@ -1,30 +1,58 @@
-const express = require("express");
-const mongoose = require("mongoose");
+const express = require('express');
+// const cors = require('/cors');
+const mongoose = require('mongoose');
+
 const app = express();
 
-app.use(express.json());
+mongoose.connect('mongodb+srv://pathakchinmay02:chinurahulrocks@cluster0.4aqvrus.mongodb.net/sample?retryWrites=true&w=majority',{
+  useNewUrlParser: true, 
+  useUnifiedTopology: true
+});  
 
-const Port = process.env.PORT || 6090;
-app.listen(Port, () => {
-    console.log("listening on port", Port);
+
+const UserSchema =new mongoose.Schema(
+  {
+     name : String,
+  }
+)
+
+const UserModel = mongoose.model('User', UserSchema);
+app.get('/yashlodu',(req,res) => {
+            
+  UserModel.find({}).then(function(users){
+     res.status(200).json("api is running");
+  }).catch(function(err)
+  {
+     console.error(err);
+  });
+    
 });
 
-const MONGO_LINK = "mongodb://localhost:27017";
-mongoose.set("strictQuery", false);
+app.get('/add',async(req,res) => {
+  const newuser=new UserModel({
+    name:"porwal"
+  });
 
-mongoose.connect(
-  process.env.MONGO_LINK,
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
-
-const db = mongoose.connection;
-
-db.on("error", (err) => {
-  console.error("Connection error:", err);
+  await newuser
+          .save()
+          .then(() => {
+            return res.status(200).send("User Sucessfully Registered");
+          })
+          .catch((err) => {
+            return res.status(404).send("Internal Error");
+          });
+  // UserModel.find({}).then(function(users){
+  //    res.status(200).json("api is running");
+  // }).catch(function(err)
+  // {
+  //    console.error(err);
+  // });
+    
 });
 
-db.once("open", () => {
-  console.log("Connected to MongoDB");
-  // You can perform operations on the database here.
-});
 
+app.listen(3000, () => {
+ 
+  console.log(" server is running on port 3000"); 
+
+});

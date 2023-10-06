@@ -20,7 +20,7 @@ const Teacher = () => {
                 <p className="leading-6">{teacher.exams}</p>
               </div>
               <div className="w-1/2 flex justify-center items-center"> {/* Added flex and justify-center to center the image */}
-                <div className="w-96 h-96 rounded-full bg-cover bg-no-repeat bg-lightgray50">
+                <div>
                   <img
                     src={teacher.images}
                     alt={teacher.name}
