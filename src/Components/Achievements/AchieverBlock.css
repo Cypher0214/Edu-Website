@@ -1,0 +1,46 @@
+.achiever_block {
+    position: relative;
+    min-width: 150px;
+    height: 55vh;
+    width: 20vw;
+    /* margin-right: 2rem; */
+    margin-top: 30px;
+    margin: 50px;
+    padding: 5%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* border-color: black;
+    border: 2px solid; */
+    border-radius: 10%;
+    text-align: center;
+    
+}
+
+.achiever_image_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 0; */
+    object-fit: cover;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;               
+}
+
+.achiever_image_div img {
+    border-radius: 50%;  
+    /* width: 342px;
+    height: 332px;  */
+    /* width: 1000px;   */
+    height: auto;        
+}
+
+.rank {
+    font-weight: 800;
+}
+
+.name {
+    font-weight: 600;
+}
+

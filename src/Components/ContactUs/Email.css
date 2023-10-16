@@ -1,5 +1,6 @@
 .main_container_email {
    background-image: url("../../assets/bgWrite.jpg");
+   background-color: white;
    width: 100%; /* Make sure the container takes the full width of its parent */
    height: 75vh;
    /* border: 5px solid black; */

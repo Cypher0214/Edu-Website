@@ -1,44 +1,53 @@
-import './Footer.css'
-import {images} from '../../Constants/images'
-import { SocialIcon } from 'react-social-icons'
+import './Footer.css';
+import { images } from '../../Constants/images';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
   return (
-    <div className="main_container_footer  ">
-      <div className="top">
-        {/* <p>This is the Top Part</p> */}
-        <div className="top_left">
-          <div>
-            <img src={images.logo} className="footer_logo" />
+    <div className="main_container_footer">
+      <div className="footer">
+        <div className="footer_logo_links">
+          <div className="footer_logo_div">
+            <img src={images.logo} className="footer_logo" alt="Footer Logo" />
           </div>
           <div className="follow_links">
-            <p>Follow Us</p>
-            <SocialIcon style={{ height: 35, width: 35 }} url="www.facebook.com" />
-            <SocialIcon style={{ height: 35, width: 35 }} url="www.twitter.com" />
-            <SocialIcon style={{ height: 35, width: 35 }} url="www.instagram.com" />
-            <SocialIcon style={{ height: 35, width: 35 }} url="www.linkedin.com" />
+            <p>Follow Us:</p>
+            <SocialIcon className="follow_links_icons" style={{ height: 35, width: 35 }} url="www.facebook.com" />
+            <SocialIcon className="follow_links_icons" style={{ height: 35, width: 35 }} url="www.twitter.com" />
+            <SocialIcon className="follow_links_icons" style={{ height: 35, width: 35 }} url="www.instagram.com" />
+            <SocialIcon className="follow_links_icons" style={{ height: 35, width: 35 }} url="www.linkedin.com" />
           </div>
         </div>
-        <div className="top_right">
-          <div>
-            <div className="top_right_inner">
+        <div className="footer_small_div_line">
+          <hr />
+        </div>
+        <div className="footer_enroll">
+          <button className="enroll_btn">Enroll Now</button>
+        </div>
+        <div className="footer_small_div_line">
+          <hr />
+        </div>
+        <div className="footer_details">
+          <div className="footer_details_inner">
             <p>Savita Devi Academy</p>
-            <p>Gorakhpur Road</p>
-            <p>Near SK Petrol Pump</p>
-            <p>Kasya, Kushinagar</p>
-            </div>
+            <p>Kushinagar, Gorakhpur</p>
+            <p>Uttar Pradesh</p>
           </div>
         </div>
       </div>
-      {/* <div className="bottom">
-        <div className="inner_bottom"><p>1</p></div>
-        <div className="inner_bottom"><p>2</p></div>
-        <div className="inner_bottom"><p>3</p></div>
-        <div className="inner_bottom"><p>4</p></div>
-        <div className="inner_bottom"><p>5</p></div>
-      </div> */}
+      <div className="footer_map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.860678587688!2d83.90464639999999!3d26.748821699999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993ebaaed472eb7%3A0x82c75acfc9eb6159!2sSavita%20Devi%20academy%20and%20Library!5e0!3m2!1sen!2sin!4v1697456981514!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style={{ border: 0 }}
+          // allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
