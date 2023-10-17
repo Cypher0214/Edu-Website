@@ -1,10 +1,14 @@
 {
+
+  "homepage" : "https://cypher0214.github.io/Edu-Website/",
   "name": "savita-devi-coaching-center",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+     "deploy":"gh-pages -d build",
     "build": "vite build,webpack --config webpack.config.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -18,7 +22,7 @@
     "icons": "^1.0.0",
     "nodemon": "^3.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.2.0", 
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.15.0",
     "react-social-icons": "^6.3.0",
