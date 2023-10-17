@@ -1,21 +1,51 @@
 .top_bar {
-    background: #C5E3EC;
+    /* background: #C5E3EC; */
+    background-color: black;
      /* fill: #C5E3EC; */
+    color: aliceblue;
     height: 5vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
-.top_bar > h1 {
+.top_bar > div {
     /* color: white; */
     align-items: center;
     align-content: center;
-    padding: 5px;
     padding-right: 60px;
     padding-left: 40px;
 }
+
+.top_bar > div > h1 {
+    line-height: normal;
+    padding-top: 5%;
+}
+
+/* .alert_dropdown {
+    display: flex;
+    flex-direction: row;
+} */
+
+.dropdown_btn {
+    color: #fff;
+  }
+
+  .dropdown_btn {
+    /* background-color: #fff; */
+    color: #fff;
+  }
+ 
+  button.dropdown-toggle {
+    color: #fff; /* Change font color */
+  }
+  
+
+  .btn-dropdown .dropdown-menu a:hover {
+    background-color: #000;
+    /* color: #fff; */
+  }
 
 @media screen and (max-width: 1150px) {
     .top_bar {

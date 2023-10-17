@@ -1,15 +1,17 @@
 .courses_card {
     position: relative;
     min-width: 301px;
-    height: 25vh;
-    margin-right: 2rem;
+    /* height: 25vh; */
+    /* margin-right: 2rem; */
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-content: center;
     justify-content: center;
     align-items: center;
     /* border-color: black; */
     /* border: gray solid; */
-    
 }
 
 .image_div {
@@ -25,7 +27,7 @@
 }
 
 .image_div img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     overflow: hidden;
 }

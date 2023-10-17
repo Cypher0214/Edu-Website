@@ -1,6 +1,7 @@
 .youtube_main {
     border: 1px solid black;
     padding: 20px;
+    height: 70vh;
 }
 
 .youtube_title {
@@ -32,7 +33,14 @@
 }
 
 @media screen and (max-width: 2000px) {
-
+    .youtube_frame {
+        display: flex;
+        flex-direction: row;
+        /* margin: 10px; */
+        padding: 0;
+        /* align-items: center; */
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -49,8 +57,10 @@
     }
     .youtube_frame {
         flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
     .yt_frame_inner {
-        width: 100%;
+        width: 90%;
     }
 }

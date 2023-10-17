@@ -2,7 +2,7 @@ import React from 'react';
 import './Dabbas.css';
 
 const Dabbas = ({ title, img, description, linkUrl }) => (
-<div className="content-center courses_card rounded-2xl">
+<div className="courses_card">
     <div className="image_div">
       <img className="img" src={img} alt="Loading" />
     </div>
