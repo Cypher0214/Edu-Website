@@ -18,9 +18,11 @@
     padding-left: 40px;
 }
 
-.top_bar > div > h1 {
+.contactBar_details {
     line-height: normal;
     padding-top: 5%;
+    color: aliceblue;
+    
 }
 
 /* .alert_dropdown {
@@ -28,24 +30,24 @@
     flex-direction: row;
 } */
 
-.dropdown_btn {
+/* .dropdown_btn {
     color: #fff;
   }
 
   .dropdown_btn {
-    /* background-color: #fff; */
+    background-color: #fff;
     color: #fff;
   }
  
   button.dropdown-toggle {
-    color: #fff; /* Change font color */
+    color: #fff;
   }
   
 
   .btn-dropdown .dropdown-menu a:hover {
     background-color: #000;
-    /* color: #fff; */
-  }
+    color: #fff;
+  } */
 
 @media screen and (max-width: 1150px) {
     .top_bar {
