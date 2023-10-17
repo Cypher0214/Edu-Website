@@ -2,11 +2,13 @@
     display: flex;
     /* height: 100vh; */
     flex-direction: column;
-    background-image: url("../../assets/bgCourses.jpg");
+    /* background-image: url("../../assets/bgCourses.jpg"); */
+    background-color: #fff;
     overflow: hidden;
-    /* margin-top: 1%; */
-    padding-bottom: 2%;
+    /* margin-bottom: 1%;  */
+    padding-bottom: 5%;
     padding-top: 2%;
+    border: 2px solid black;
 }
 
 .cards_div {
@@ -25,30 +27,51 @@
     flex-direction: column;
     padding-top: 1%;
     padding-bottom: 2%;
-    color: white;
-    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
-    font-size: 40px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 
+/* @media screen and (max-width: 2000px) {
+    .app__navbar-logo img {
+        width: 210px;
+    }
+} */
 
-.viewMore {
-    position: relative;
-    cursor: pointer;
-    display: flex;  
-    flex-direction: column;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    color: white;
-    font-family: "Lucida Console", "Courier New", monospace;
-    align-items: center;
-    font-size: 20px;
+@media screen and (max-width: 1150px) {
+    .courses_heading {
+        padding-top: 1%;
+        padding-bottom: 2%;
+        font-size: 40px;
+        margin-bottom: 20px;
+        /* text-decoration: underline 2px dotted; */
+    }
+
+    .cards_div {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
 
-.viewMore a:hover {
-    color: pink;
-    font-family: "Lucida Console", "Courier New", monospace;
-    align-items: center;
-    font-size: 20px;
+/* @media screen and (max-width: 650px) {
+
+} */
+
+@media screen and (max-width: 650px) {
+    .courses_heading {
+        padding-top: 1%;
+        padding-bottom: 2%;
+        font-size: 30px;
+        margin-bottom: 20px;
+        /* text-decoration: underline 2px dotted; */
+    }
+
+    .cards_div {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
 

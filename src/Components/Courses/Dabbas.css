@@ -1,13 +1,14 @@
 .courses_card {
     position: relative;
     min-width: 301px;
-    height: 30vh;
+    height: 25vh;
     margin-right: 2rem;
-    padding: 1%;
+    padding: 15px;
     align-content: center;
     justify-content: center;
     align-items: center;
-    border-color: aliceblue;
+    /* border-color: black; */
+    /* border: gray solid; */
     
 }
 
@@ -16,42 +17,49 @@
     margin-left: auto;
     margin-right: auto;
     /* margin-bottom: 0; */
-    object-fit: cover;
-    width: 100px;
+    /* object-fit: cover; */
+    width: 214px;
+    height: 213px;
     align-items: center;
                     
 }
 
-.text_design {
+.image_div img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* .text_design {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     font-family: "Times New Roman", Times, serif;
-} 
-
+}  */
 
 .heading_design {
     display: flex;
-    color: aliceblue;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
     align-items: center;
     font-family: "Lucida Console", "Courier New", monospace;
+    /* font-weight: 800; */
 }
 
-a {
+/* a {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     bottom: 0;
     position: absolute;
-}
+} */
 
-.learn_more_btn {
+/* .learn_more_btn {
     background-color: sandybrown;
     border-radius: 8px;
     padding: 5px;
@@ -59,9 +67,39 @@ a {
     color: white; 
     font-weight: 500;
     font-family: "Lucida Console", "Courier New", monospace;
-}
+} */
 
-.learn_more_btn:hover {
+/* .learn_more_btn:hover {
     color: black;
     font-weight: 500;
+} */
+
+.course_title {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
+
+@media screen and (max-width: 1150px) {
+    .courses_card {
+        min-width: 150px;
+        margin-right: 1rem;
+        padding: 10px;        
+    }
+}
+
+/* @media screen and (max-width: 650px) {
+
+} */
+
+@media screen and (max-width: 650px) {
+    .courses_card {
+        min-width: 150px;
+        margin-right: 1rem;
+        padding: 10px;        
+    }
+}
+

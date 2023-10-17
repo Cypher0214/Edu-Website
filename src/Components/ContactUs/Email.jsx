@@ -48,7 +48,7 @@ const Email = () => {
   };
 
   return (
-    <div className="main_container_email" id="contact">
+    <div className="main_container_email" id="contact ">
        <div>
           <h1 className='mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]
             text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl pt-10 lg:text-6xl dark:text-white justify-center flex items-center '>
