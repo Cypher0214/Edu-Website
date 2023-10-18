@@ -10,7 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "antd": "^5.10.1",
+=======
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.13",
+>>>>>>> 02eea6e3c7519c8f29e39e9f65968f8823cb1e59
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.6.0",
     "google-map-react": "^2.2.1",

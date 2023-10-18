@@ -7,15 +7,29 @@
     background-color: #C5E3EC;  
 }
 
+/* Update the CSS for your footer */
+/* Update the CSS for your footer */
 .footer {
     display: flex;
-    flex: 1;
     justify-content: space-between;
-    overflow: hidden;
-    padding-top: 3px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer_details {
+    flex: 1; /* Let the details take the available space */
+  }
+  
+  .footer_map {
+    flex: 1; /* Let the map take the available space */
+    max-width: 50%; /* Limit the maximum width of the map */
+    margin-top: 10px; /* Add margin to separate it from other footer content */
+  }
+  
+  /* Add any other styling you want for the map */
+  
+  /* Add any other styling you want for the map */
+  
 
 .footer_details_inner {
     float: left;
@@ -91,6 +105,20 @@
     font-weight: 500;
     color: #000000;
 }
+
+  /* Set a maximum width for the map container to ensure it doesn't overflow the footer */
+  .footer_map-container {
+    max-width: 50%; /* Adjust the width as needed */
+    height: 200px; /* Set a fixed height for the map container */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  /* Set a maximum width for the map to ensure it doesn't overflow its container */
+  .footer_map iframe {
+    width: 100%; /* Make the map take full width of its container */
+    height: 100%; /* Make the map take full height of its container */
+  }
+  
 
 @media screen and (max-width: 2000px) {
 

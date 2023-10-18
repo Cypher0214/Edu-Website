@@ -27,7 +27,7 @@ const ContactUs = () => {
       e.preventDefault();
   
       try {
-        const response = await fetch('https://formsubmit.co/rajputrohan196@gmail.com', {
+        const response = await fetch('https://formsubmit.co/pathakchinmay02@gmail.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const ContactUs = () => {
         }
       } catch (error) {
         console.error('An error occurred while submitting the form:', error);
-      }
+      }w
   
       // Clear the form after submission
       setFormData({
