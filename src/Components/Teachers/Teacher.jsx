@@ -1,5 +1,5 @@
 import { teacher } from "../../Constants/teacher";
-import './Teachers.css';
+import './teacher.css';
 
 const Teacher = () => {
   return (
