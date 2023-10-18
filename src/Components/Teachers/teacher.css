@@ -43,6 +43,11 @@
 }
 
 @media screen and (max-width: 480px) {
+    /* .teacher_main {
+        width: 100vw;
+        overflow: hidden;
+        margin: 0;
+    } */
     .teacher_blocks {
         display: flex;
         flex-direction: column;

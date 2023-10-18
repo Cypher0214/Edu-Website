@@ -6,7 +6,7 @@ import Bank from '../../assets/CoursesLogos/Bank.png';
 import CTET from '../../assets/CoursesLogos/UPP.png';
 import NDA from '../../assets/CoursesLogos/NDA.png';
 import Rail from '../../assets/CoursesLogos/Rail.png';
-import SSC from '../../assets/CoursesLogos/UPP.png';
+import SSC from '../../assets/CoursesLogos/SSC.png';
 import SuperTET from '../../assets/CoursesLogos/SuperTET.png';
 import TET from '../../assets/CoursesLogos/TET.png';
 import UPSI from '../../assets/CoursesLogos/UPSI.png';
