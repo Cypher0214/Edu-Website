@@ -1,5 +1,5 @@
 import { teacher } from "../../Constants/teacher";
-import './teacher.css';
+import './Teachers.css';
 
 const Teacher = () => {
   return (
@@ -25,7 +25,7 @@ const Teacher = () => {
                   style={{ backgroundImage: `url(${teacher.images})` }}
                 >
                 </div>
-                <hr className="teacher_division"></hr>
+                <hr className="teacher_division"/>
               </div>
             </div>
           ))}

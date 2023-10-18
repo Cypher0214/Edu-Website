@@ -11,6 +11,7 @@
 
 .teachers_heading {
     font-weight: 500;
+    
 }
 
 .img{
@@ -66,9 +67,10 @@
         padding: 0;
     }
     .teacher_division {
+        display: block;
         margin-top: 40px;
         width: 100%;
-        background-color: black;
+        background-color: black; 
         height: 2px;
     }
 }
