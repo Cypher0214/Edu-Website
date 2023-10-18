@@ -8,13 +8,8 @@ import Achievements from "../Achievements/Achievements";
 const Main = () => {
   return (
     <div>
-<<<<<<< HEAD
-       {/* <Achievements /> */}
-       <Gallery />
-=======
         <Gallery />
        <Achievements />
->>>>>>> 02eea6e3c7519c8f29e39e9f65968f8823cb1e59
        <ContactUs />
         {/* <Courses />
        <Laurels /> */}
