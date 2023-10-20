@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div>
         <Gallery />
-       <Achievements />
+       {/* <Achievements /> */}
        <ContactUs />
         {/* <Courses />
        <Laurels /> */}
