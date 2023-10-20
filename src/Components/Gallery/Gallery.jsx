@@ -5,7 +5,7 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  const imagePaths = [images.banner, images.gal1, images.gal2, images.gal3, images.gal4, images.gal4];
+  const imagePaths = [images.banner, images.image12, images.gal2, images.gal3, images.gal4, images.gal4, images.gal1];
 
   useEffect(() => {
     const interval = setInterval(() => {
