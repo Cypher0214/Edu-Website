@@ -3,13 +3,13 @@ import Gallery from "../Gallery/Gallery";
 // import Courses from "../Courses/Courses";
 import ContactUs from "../ContactUs/ContactUs";
 // import Laurels from "../Laurels/Laurels";
-import Achievements from "../Achievements/Achievements";
+import AboutUs from "../AboutUs/AboutUs";
 
 const Main = () => {
   return (
     <div>
         <Gallery />
-       {/* <Achievements /> */}
+       <AboutUs />
        <ContactUs />
         {/* <Courses />
        <Laurels /> */}

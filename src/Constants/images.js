@@ -12,6 +12,10 @@ import teach2 from "../assets/t2.png"
 import teach3 from "../assets/t3.jpg"
 import teach4 from "../assets/t4.jpg"
 import banner from "../assets/banner.jpg"
+import aboutus from "../assets/aboutus.png"
+import aboutus_text from "../assets/aboutus_text.png"
+import aboutus_arrow from "../assets/aboutus_arrow.png"
+import aboutus_arrow_down from "../assets/aboutus_arrow_down.png"
 // import girl from "../assets/girl.png"
 
 import teach5 from "../assets/t5.jpg"
@@ -30,6 +34,10 @@ export const images=
     t3:teach3,
     t4:teach4,
     t5:teach5,
+    aboutus:aboutus,
+    aboutus_text:aboutus_text,
+    aboutus_arrow:aboutus_arrow,
+    aboutus_arrow_down:aboutus_arrow_down,
 
 
 };

@@ -1,0 +1,135 @@
+.aboutus_main {
+    /* height: 80vh; */
+    background-color: #C5E3EC;
+}
+
+.aboutus_logo_heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.aboutus_logo_heading > img {
+    height: 90px;
+    width: 105px;
+    margin-right: 25px;
+}
+
+.aboutus_logo_heading > h2 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F48F8F;
+    text-align: center;
+    font-weight: 800;
+}
+
+.aboutus_details {
+    display: flex;
+    
+}
+
+.aboutus_down {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutus_girl {
+    height: 390px;
+    padding: 0;
+}
+
+.aboutus_girl_div {
+    align-self: center;
+    flex: 1;
+    padding-left: 85px;
+}
+
+.aboutus_arrow_div {
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+}
+
+.aboutus_arrow_down_div {
+    display: none;
+    align-self: center;
+    justify-content: center;
+}
+
+.aboutus_text_div {
+    flex: 1;
+    align-self: center;
+}
+
+.aboutus_arrow {
+    height: 100px;
+    padding-left: 100px;
+}
+
+.aboutus_text {
+    height: 300px;
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+   
+}
+
+@media screen and (max-width: 480px) {
+    .aboutus_logo_heading {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .aboutus_logo_heading > img {
+        height: 60px;
+        width: 75px;
+        margin-right: 15px;
+    }
+    
+    .aboutus_logo_heading > h2 {
+        font-size: 20px;
+    }
+
+    .aboutus_down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus_girl {
+        height: 200px;
+    }
+    
+    .aboutus_arrow_div {
+        display: none;
+    }
+
+    .aboutus_arrow_down_div {
+        display: block;
+
+    }
+    
+    .aboutus_text_div {
+        flex: 1;
+        align-self: center;
+    }
+    
+    .aboutus_arrow_down {
+        height: 100px;
+        /* padding-left: 100px; */
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .aboutus_text {
+        height: 250px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
