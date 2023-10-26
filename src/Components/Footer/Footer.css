@@ -33,17 +33,17 @@
 }
 
 .footer_details_inner_up > p{
-    font-size: 25px;
+    font-size: 20px;
     /* font-family: "Lucida Console", "Courier New", monospace; */
 }
 
 .footer_details_inner_down {
     overflow: hidden;
-    height: 250px;
-    width: 100px;
+    height: auto;
+    width: 80%;
     flex: 1; 
-    /* max-width: 50%;
-    margin-top: 10px; */
+    /* max-width: 50%; */
+    margin-top: 10px;
   }
 
 .footer_logo_links {
@@ -85,6 +85,7 @@
     justify-content: flex-end; */
     padding: 10px;
     color: #000000;
+    overflow: hidden;
     /* margin-top: 20px; */
 }
 
@@ -116,7 +117,8 @@
   .footer_map-container {
     /* max-width: 50%;  */
     /* Adjust the width as needed */
-    /* height: 200px;  */
+    height: 20px; 
+    width: 80vw;
     /* Set a fixed height for the map container */
     overflow: hidden; /* Hide any overflow */
   }
@@ -277,18 +279,11 @@
         padding: 0;
         display: flex;
         justify-content: space-around;
-        /* align-items: center;
-        align-content: center;
-        align-self: center;
-        justify-content:space-between; */
     }
     .footer_logo {
-        /* padding-left: 30px; */
         margin: 10px;
-        /* margin-left: 60px; */
         width: 100px;
         height: 85px;
-        /* margin-top: 30px; */
     }
     .follow_links > p {
         padding-right: 10px;
