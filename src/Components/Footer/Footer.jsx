@@ -28,24 +28,24 @@ const Footer = () => {
           <hr />
         </div>
         <div className="footer_details">
-          <div className="footer_details_inner">
+          <div className="footer_details_inner_up">
             <p>Savita Devi Academy</p>
             <p>Kushinagar, Gorakhpur</p>
             <p>Uttar Pradesh</p>
           </div>
+          <div className="footer_details_inner_down">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.860678587688!2d83.90464639999999!3d26.748821699999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993ebaaed472eb7%3A0x82c75acfc9eb6159!2sSavita%20Devi%20academy%20and%20Library!5e0!3m2!1sen!2sin!4v1697456981514!5m2!1sen!2sin"
+              width="500"
+              height="150"
+              style={{ border: 0 }}
+              // allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
-      {/* <div className="footer_map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.860678587688!2d83.90464639999999!3d26.748821699999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993ebaaed472eb7%3A0x82c75acfc9eb6159!2sSavita%20Devi%20academy%20and%20Library!5e0!3m2!1sen!2sin!4v1697456981514!5m2!1sen!2sin"
-          width="600"
-          height="450"
-          style={{ border: 0 }}
-          // allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div> */}
     </div>
   );
 };

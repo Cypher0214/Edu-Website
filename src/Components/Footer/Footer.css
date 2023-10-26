@@ -17,28 +17,34 @@
   }
   
   .footer_details {
-    flex: 1; /* Let the details take the available space */
+    margin-top: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* flex: 1; */
+     /* Let the details take the available space */
   }
-  
-  .footer_map {
-    flex: 1; /* Let the map take the available space */
-    max-width: 50%; /* Limit the maximum width of the map */
-    margin-top: 10px; /* Add margin to separate it from other footer content */
-  }
-  
-  /* Add any other styling you want for the map */
-  
-  /* Add any other styling you want for the map */
-  
 
-.footer_details_inner {
-    float: left;
+.footer_details_inner_up {
+    flex: 1;
+    overflow: hidden;
+    /* float: left; */
 }
 
-.footer_details_inner > p{
+.footer_details_inner_up > p{
     font-size: 25px;
     /* font-family: "Lucida Console", "Courier New", monospace; */
 }
+
+.footer_details_inner_down {
+    overflow: hidden;
+    height: 250px;
+    width: 100px;
+    flex: 1; 
+    /* max-width: 50%;
+    margin-top: 10px; */
+  }
 
 .footer_logo_links {
     padding-left: 50px;
