@@ -52,7 +52,7 @@ const Navbar = () => {
         {toggleMenu && (      // If ToggleMenu is true
           <div className="navbar_smallscreen_overlay flex__center slide_bottom">
             <GiCrossedBones fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-            <ul className="navbar_smallscreen_links">
+            <ul  onClick={() => setToggleMenu(false)} className="navbar_smallscreen_links">
               <Link to = "/" className="small_link">Home</Link>
               <Link to = "/courses" className="small_link">Courses</Link>
               <Link to = "/contactus" className="small_link">Contact Us</Link>
