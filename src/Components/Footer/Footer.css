@@ -1,6 +1,6 @@
 .main_container_footer {
     display: flex;
-    height: 250px; 
+    /* height: 250px;  */
     flex-direction: column; 
     /* height: 60vh; */
     flex-direction: column;
@@ -32,17 +32,16 @@
     /* float: left; */
 }
 
-.footer_details_inner_up > p{
+.footer_details_inner_up > p {
     font-size: 20px;
     /* font-family: "Lucida Console", "Courier New", monospace; */
 }
 
 .footer_details_inner_down {
     overflow: hidden;
-    height: auto;
+    height: 50px;
     width: 80%;
     flex: 1; 
-    /* max-width: 50%; */
     margin-top: 10px;
   }
 
@@ -117,7 +116,8 @@
   .footer_map-container {
     /* max-width: 50%;  */
     /* Adjust the width as needed */
-    height: 20px; 
+    /* height: 20px; */
+    height: 80%; 
     width: 80vw;
     /* Set a fixed height for the map container */
     overflow: hidden; /* Hide any overflow */
@@ -127,6 +127,7 @@
   .footer_map iframe {
     width: 100%; /* Make the map take full width of its container */
     height: 100%; /* Make the map take full height of its container */
+    overflow: hidden;
   }
   
 
@@ -269,7 +270,7 @@
     .footer_map-container {
         /* max-width: 50%;  */
         /* Adjust the width as needed */
-        height: 200px; 
+        /* height: 200px;  */
         width: auto;
         /* Set a fixed height for the map container */
         overflow: hidden; /* Hide any overflow */
