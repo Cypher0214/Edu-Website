@@ -63,6 +63,13 @@
       flex-direction: row;
       justify-content: space-between;
     }
+
+    .student_alert_small {
+      align-items: center;
+      justify-content: center;
+      justify-self: center;
+      align-self: left;
+    }
 }
   
   

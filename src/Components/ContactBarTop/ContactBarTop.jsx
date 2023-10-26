@@ -41,7 +41,7 @@ const ContactBarTop = () => {
         <SocialIcon className="top_bar_contact" style={{ height: 25, width: 25 }} url="www.mailto.com" />
         {/* <h1 className="contactBar_details"><a href="contact">Contact</a></h1> */}
         </div>
-        <div>
+        <div className="student_alert_small">
           <ButtonToolbar> 
             <Dropdown title="Student Alerts" activeKey="a" style={dropdownTitleStyle}> 
               {alertsData.alerts.map((alert) => (
