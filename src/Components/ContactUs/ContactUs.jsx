@@ -83,11 +83,11 @@ const ContactUs = () => {
               </div>
               <div className="contact_info_details_small">
                 <img src={mail} className="email_image_small" />
-                <p className="contact_mode_detail_small">+91-7424870565</p>
+                <p className="contact_mode_detail_small">contact@savitadevi.com</p>
               </div>
               <div className="contact_info_details_small">
                 <img src={gps} className="location_image_small" />
-                <p className="contact_mode_detail_small">+91-7424870565</p>
+                <p className="contact_mode_detail_small">Uttar Pradesh, India</p>
               </div>
             </div>
         <div className="contact_form">
