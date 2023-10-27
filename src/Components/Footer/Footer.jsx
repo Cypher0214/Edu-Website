@@ -1,6 +1,7 @@
 import './Footer.css';
 import { images } from '../../Constants/images';
 import { SocialIcon } from 'react-social-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -22,7 +23,9 @@ const Footer = () => {
           <hr />
         </div>
         <div className="footer_enroll">
-          <button className="enroll_btn">Enroll Now</button>
+          <Link to="/contactus">
+            <button className="enroll_btn">Enroll Now</button>
+          </Link>
         </div>
         <div className="footer_small_div_line">
           <hr />
