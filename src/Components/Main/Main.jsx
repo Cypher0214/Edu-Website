@@ -4,7 +4,7 @@ import Gallery from "../Gallery/Gallery";
 import ContactUs from "../ContactUs/ContactUs";
 // import Laurels from "../Laurels/Laurels";
 import AboutUs from "../AboutUs/AboutUs";
-
+import Banner from "../banner/banner";
 const Main = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const Main = () => {
        <ContactUs />
         {/* <Courses />
        <Laurels /> */}
+       <Banner />
     </div>
   )
 }
