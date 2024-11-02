@@ -53,7 +53,7 @@ const Email = () => {
           <h1 className='mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]
             text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl pt-10 lg:text-6xl dark:text-white justify-center flex items-center '>
           {/* <h1> */}
-            Contact Us
+            Contact Us...
           </h1>
             <div className="form_container">
             {/* <form className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4' onSubmit={handleSubmit}> */}
